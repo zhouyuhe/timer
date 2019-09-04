@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Stopwatch</h1>
+    <div class="shadowbox">
+      <div id='timer'>00:00:00</div>
+      <div class="button">
+          <button id="lap-reset">reset</button>
+          <button id="start-stop" onclick="startStop()">start</button>
+      </div>
+      <table class="laptable">
+        <tbody>
+          <td>lag </td>
+          <td>interval</td>
+        </tbody>
+      </table>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

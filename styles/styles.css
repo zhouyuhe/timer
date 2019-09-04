@@ -1,0 +1,53 @@
+html {
+    background-color: #C9F0A2;
+  }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+
+  .shadowbox {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #333;
+    padding: 75px 200px;
+    margin: auto;
+    overflow: auto;
+  }
+
+  #timer{
+    margin-right: 10%;
+    font-size: 60px;
+    margin-bottom: 10%;
+    width: 300px;
+  }
+  .button{
+    height: 60px;
+    width: 200px;
+    margin: 100px;
+    color: white;
+    float: left; /* Float the buttons side by side */
+  }
+
+  #lap-reset{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-top: 0.1%;
+    float: left;
+  }
+
+  #start-stop{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-top: 0.1%;
+    float: right;
+  }
+div.button{
+    margin-top: 1%;
+    margin-left: -100%;
+}
