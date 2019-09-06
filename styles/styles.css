@@ -18,6 +18,14 @@ h1 {
     overflow: auto;
   }
 
+  #lapTimer{
+    margin-right: 10%;
+    font-size: 40px;
+    margin-bottom: 10%;
+    width: 300px;
+    overflow: auto;
+  }
+
   #timer{
     margin-right: 10%;
     font-size: 60px;

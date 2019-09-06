@@ -12,17 +12,21 @@
 <body>
     <h1>Stopwatch</h1>
     <div class="shadowbox">
-      <div id='timer'>00:00:00</div>
+      <div id='timer'>00:00.00</div>
       <div class="button">
-          <button id="lap-reset">reset</button>
-          <button id="start-stop" onclick="timer.startStop()">start</button>
+          <button id="lap-reset" onclick="timer.lapReset()">Reset</button>
+          <button id="start-stop" onclick="timer. startStop()">Start</button>
       </div>
-      <table class="laptable">
-        <tbody>
-          <td>lag </td>
-          <td>interval</td>
-        </tbody>
-      </table>
+      <table id= 'lapTimer'>
+        <thead>laptable</thead>
+          <tbody >
+              <pre></pre>
+              <tr>
+                  <td>lap</td>
+                  <td>laptime</td>
+              </tr>
+          </tbody>
+        </table>
     </div>
     <script src="scripts/main.js"></script>
 </body>
